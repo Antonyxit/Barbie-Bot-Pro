@@ -1,11 +1,34 @@
 let media = './media/menus/Menu4paypal.jpg'
 let handler = async (m, { conn, command }) => {
 let user = db.data.users[m.sender]
-let str = `💖 𝙃𝙤𝙡𝙖!! 𝘼𝙜𝙧𝙖𝙙𝙚𝙯𝙘𝙤 𝙨𝙞 𝙢𝙚 𝘼𝙥𝙤𝙮𝙖𝙨 𝘿𝙤𝙣𝙖𝙣𝙙𝙤. 🎁 𝙈𝙚 𝙖𝙜𝙧𝙖𝙙𝙖 𝙚𝙡 𝙏𝙧𝙖𝙗𝙖𝙟𝙤 𝙦𝙪𝙚 𝙝𝙚 𝙇𝙤𝙜𝙧𝙖𝙙𝙤 𝙮 𝙡𝙤 𝘾𝙤𝙢𝙥𝙖𝙧𝙩𝙤 𝙘𝙤𝙣 𝙐𝙨𝙩𝙚𝙙𝙚𝙨. 𝙂𝙧𝙖𝙘𝙞𝙖𝙨!
-💖 𝙃𝙚𝙡𝙡𝙤!! 𝙄 𝙖𝙥𝙥𝙧𝙚𝙘𝙞𝙖𝙩𝙚 𝙞𝙛 𝙮𝙤𝙪 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 𝙢𝙚 𝙗𝙮 𝙙𝙤𝙣𝙖𝙩𝙞𝙣𝙜. 🎁 𝙄 𝙡𝙞𝙠𝙚 𝙩𝙝𝙚 𝙬𝙤𝙧𝙠 𝙄 𝙝𝙖𝙫𝙚 𝙖𝙘𝙝𝙞𝙚𝙫𝙚𝙙 𝙖𝙣𝙙 𝙨𝙝𝙖𝙧𝙚 𝙬𝙞𝙩𝙝 𝙮𝙤𝙪. 𝙏𝙝𝙖𝙣𝙠 𝙮𝙤𝙪!
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝑴𝑶𝑵𝑲𝑬𝒀 𝑩𝑶𝑻 𝑩𝒀 𝑴𝑶𝑵𝑶𝑽𝑨𝑵 𝑽𝑬𝑵𝑻𝑨𝑺
-*https://chat.whatsapp.com/LLqGV155mAQHJ2vMtxyEM2*
+let str = `🧸METODOS DE PAGO🎀
+Kary Crom
+
+CLABE TRANSFERENCIAS: 
+
+Stp
+722969010624936781
+
+Nu
+638180010187356629
+
+Afirme
+062580008440887796
+
+Bbva
+012180015283673131
+
+🎀DEPÓSITOS🧸
+
+Bbva
+4152313976120126
+
+🎀CONCEPTO🧸
+Únicamente coloca tu nombre o el nombre de quien queda el perfil.
+
+Manda comprobante de pago con texto de lo que solicitas📝 y tu pedido se entregara lo antes posible🫶🏽
+
+✨GRACIAS POR TU COMPRA✨*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
 await conn.sendMessage(m.chat, { 
 text: str, 
@@ -29,6 +52,6 @@ body: ig,
 ['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)}*/
-handler.command = /^dona(te|si)|donar|apoyar|paypal|donating$/i
+handler.command = /^dona(te|si)|donar|pagar|pago|pagarbarbie|pagarbot|pagobarbie|pagokary|pagarkary|karipago|metododepago|donating$/i
 handler.exp = 80
 export default handler
